@@ -16,8 +16,8 @@ methods
     // static aToken
 	// -------------
         asset() returns (address) envfree
-        totalAssets() returns (uint256) envfree
-        maxWithdraw(address owner) returns (uint256) envfree
+        totalAssets() returns (uint256)
+        maxWithdraw(address owner) returns (uint256)
         maxRedeem(address owner) returns (uint256) envfree
         previewWithdraw(uint256) returns (uint256)
         previewRedeem(uint256) returns (uint256)
